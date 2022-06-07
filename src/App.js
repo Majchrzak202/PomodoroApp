@@ -1,10 +1,13 @@
-
-
+import React from "react";
+import Navbar from "./Components/UI/Navbar";
+import Timer from "./Components/Timer/Timer";
 
 function App() {
   return (
     <div className="App">
-     Hejka 
+      <Navbar/>
+      <Timer/>
+     
     </div>
   );
 }
