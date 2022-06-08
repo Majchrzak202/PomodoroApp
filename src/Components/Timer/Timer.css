@@ -27,6 +27,7 @@
 .timer-button-control button {
   margin-right: 10px;
   background-color: tomato;
+  text-decoration: none;
 }
 
 .timer-display-control {
@@ -58,4 +59,5 @@
     text-align: center;
     text-decoration: none;
     justify-content: center;
+    margin-bottom: 18px;
 }
