@@ -3,11 +3,13 @@ import "./Task.css";
 
 const Task = () => {
   return (
-    <div className="task">
+     <div className="task">
       <button className="buttonLi">+</button>
       <p>Japa</p>
-    </div>
+    </div> 
   );
 };
 
 export default Task;
+
+

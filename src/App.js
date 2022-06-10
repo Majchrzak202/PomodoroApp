@@ -1,17 +1,21 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Navbar from "./Components/UI/Navbar";
 import Timer from "./Components/Timer/Timer";
 import TaskList from "./Components/Tasks/TaskList";
 
-function App() {
+
+const App = () => {
+  
+
   return (
     <div className="App">
-      <Navbar/>
-      <Timer/>
-      <TaskList/>
-     
+      <Navbar />
+      
+
+      <Timer />
+      <TaskList />
     </div>
   );
-}
+};
 
 export default App;
